@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#9CCC65">
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            tools:src="@drawable/colors"
+            android:id="@+id/tag"
+            android:scaleType="centerInside"/>
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="#FFFDE7"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="English Word"
+                android:id="@+id/english"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="Sanskrit Word"
+                android:id="@+id/sanskrit"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_play_arrow_black_24dp"
+            android:background="#FFFDE7"
+            android:paddingRight="10dp"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
